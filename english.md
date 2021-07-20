@@ -12,19 +12,19 @@
     font-size: 18px;
 }
 .header {
-    width: 50%;
-    margin: 40px auto 0px;
-    color: rgb(255, 6, 6);
+    width: 90%;
+    margin: 40px auto 20px;
+    color: rgb(255, 10, 10);
     background-color: greenyellow;
     text-align: center;
     border: 1px solid rgb(255, 169, 169);
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .wrapper {
-    width: 50%;
-    margin: 0px auto;
-    border: 1px solid gray
+    width: 80%;
+    margin: 15px auto;
+    border: 0px solid gray
 }
 .wrapper:after {
 content: "";
@@ -32,13 +32,13 @@ display: block;
 clear: both;
 }
 .words{
-    width: 29%;
+    width: 80%;
     float: left;
 }
 .word{
-    width: 69%;
+    width: 50%;
     float: left;
-    padding-left: 10px;
+    padding-left: 50px;
 }
 #word_list{
     max-height: 400px;
@@ -46,20 +46,20 @@ clear: both;
 }
 li{
     list-style-type: none;
-    line-height: 1.4em;
+    line-height: 1.9em;
 }
 li:hover{
     cursor: pointer;
-    color: rgb(17, 0, 252);
+    color: rgb(0, 55, 311);
 }
 ul {
-    margin-left: -10px;
+    margin-left: -15px;
 }
 #search{
-    margin-top: 12px;
-    margin-right: auto;
-    margin-bottom: 12px;
-    margin-left: auto;
+    margin-top: 15px;
+    margin-right: center;
+    margin-bottom: 15px;
+    margin-left: center;
     margin: center;
 }
 /* button{
